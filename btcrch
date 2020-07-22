@@ -1,0 +1,13 @@
+`cd` to the directory of your local bitcoin repository and run
+    `./configure`. In the output you should see:
+
+    ```shell
+    checking rapidcheck.h usability... yes
+    checking rapidcheck.h presence... yes
+    checking for rapidcheck.h... yes
+    [...]
+    Options used to compile and link:
+    [...]
+      with test     = yes
+        with prop   = yes
+    ```
